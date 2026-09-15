@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ReleaseCommunications.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ReleaseCommunications.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+    x:Class="ReleaseCommunications.App.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ReleaseCommunications_App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+            </ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <StaticResource x:Key="ArticleHeroBackgroundBrush" ResourceKey="AccentFillColorDefaultBrush" />
+                    <StaticResource x:Key="ArticleHeroGlyphBackgroundBrush" ResourceKey="AccentFillColorSecondaryBrush" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <StaticResource x:Key="ArticleHeroBackgroundBrush" ResourceKey="AccentFillColorDefaultBrush" />
+                    <StaticResource x:Key="ArticleHeroGlyphBackgroundBrush" ResourceKey="AccentFillColorSecondaryBrush" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="HighContrast">
+                    <StaticResource x:Key="ArticleHeroBackgroundBrush" ResourceKey="SystemColorHighlightColorBrush" />
+                    <StaticResource x:Key="ArticleHeroGlyphBackgroundBrush" ResourceKey="SystemColorHotlightColorBrush" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

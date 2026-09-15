@@ -1,0 +1,12 @@
+# Project-local build and packaging output. Repository-wide rules live at the root.
+[Bb]in/
+[Oo]bj/
+AppPackages/
+BundleArtifacts/
+publish/
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.cer
+*.pfx

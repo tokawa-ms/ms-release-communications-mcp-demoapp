@@ -1,0 +1,80 @@
+# .NET and Visual Studio
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Build, test, and coverage output
+[Ll]og/
+[Ll]ogs/
+*.log
+*.binlog
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+
+# NuGet and package output
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+AppPackages/
+BundleArtifacts/
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+*.cer
+*.pfx
+*.p12
+publish/
+PublishScripts/
+*.pubxml.user
+
+# Local settings, credentials, and environment files
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+appsettings.Development.json
+secrets.json
+settings.json
+summary-cache.json
+*.local.json
+*.key
+*.pem
+*.token
+
+# IDEs and analysis tools
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+_ReSharper*/
+*.DotSettings.user
+*.dotCover
+.sonarqube/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*~

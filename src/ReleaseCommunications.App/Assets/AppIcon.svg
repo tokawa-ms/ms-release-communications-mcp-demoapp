@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Release Communications app icon</title>
+  <desc id="desc">Original abstract artwork combining a cloud, an upward release path, and orbiting update arcs.</desc>
+  <defs>
+    <linearGradient id="background" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123B72"/>
+      <stop offset="0.52" stop-color="#2667B4"/>
+      <stop offset="1" stop-color="#35A8A0"/>
+    </linearGradient>
+    <linearGradient id="release" x1="84" y1="170" x2="171" y2="79" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9F3EE"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="54" fill="url(#background)"/>
+  <path d="M55 142c0-21 17-38 38-38 7-23 28-39 53-39 30 0 55 23 57 53 17 4 29 19 29 37 0 21-17 38-38 38H91c-20 0-36-13-36-32 0-7 2-13 5-19Z" fill="#FFFFFF" fill-opacity=".2"/>
+  <path d="M73 153c0-15 12-27 27-27 5-17 21-29 39-29 22 0 40 17 41 38 13 3 22 14 22 27 0 15-13 27-28 27H99c-15 0-26-10-26-23 0-5 1-9 4-13Z" fill="#FFFFFF" fill-opacity=".92"/>
+  <path d="M128 171V99m0 0-27 28m27-28 27 28" fill="none" stroke="url(#release)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 91c12-27 38-47 69-52M208 78c-12-18-30-31-51-37" fill="none" stroke="#A8E6FF" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="44" cy="105" r="8" fill="#B9F3EE"/>
+  <circle cx="215" cy="93" r="8" fill="#B9F3EE"/>
+</svg>

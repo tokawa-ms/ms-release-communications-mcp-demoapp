@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ReleaseCommunications.App/ReleaseCommunications.App.csproj" />
+    <Project Path="src/ReleaseCommunications.Core/ReleaseCommunications.Core.csproj" />
+    <Project Path="src/ReleaseCommunications.Infrastructure/ReleaseCommunications.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ReleaseCommunications.App.Tests/ReleaseCommunications.App.Tests.csproj" />
+    <Project Path="tests/ReleaseCommunications.Core.Tests/ReleaseCommunications.Core.Tests.csproj" />
+    <Project Path="tests/ReleaseCommunications.Infrastructure.Tests/ReleaseCommunications.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
